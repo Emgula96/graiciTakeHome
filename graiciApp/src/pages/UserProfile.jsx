@@ -38,8 +38,12 @@ export default function UserProfile() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F8F8F8] p-8">
-<div className={`max-w-5xl mx-auto ${isEditing ? 'bg-white border-2 border-dashed' : 'bg-[#FFF3EC]'} rounded-lg shadow-md p-6 border-[#B95319]`}>        <div className="flex justify-between items-center mb-6">
+    <div className="min-h-screen bg-[#CBD7D0] p-8 relative">
+      <div className="absolute top-8 left-8">
+        <i className="fas fa-bars text-2xl text-[#B95319]"></i>
+      </div>
+      <div className={`max-w-5xl mx-auto ${isEditing ? 'bg-transparent border-2 border-dashed' : 'bg-[#FFF3EC]'} rounded-lg shadow-md p-6 border-[#B95319]`}>
+        <div className="flex justify-between items-center mb-6">
           <div className="flex items-center gap-3">
             <h2 className="text-xl font-semibold text-[#B95319]">ID</h2>
             <i className="fas fa-user text-2xl text-[#B95319]"></i>
