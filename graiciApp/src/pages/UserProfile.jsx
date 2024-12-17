@@ -65,7 +65,7 @@ export default function UserProfile() {
           {/* ACCOUNT INFORMATION */}
           <section>
             <SectionHeader title="Account Information" />
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-1">
                 <FormField
                   label="First Name"
@@ -101,7 +101,7 @@ export default function UserProfile() {
           {/* ADDRESS */}
           <section>
             <SectionHeader title="Address" />
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col">
               <FormField
                 label="Home Address"
                 name="homeAddress"
@@ -121,7 +121,7 @@ export default function UserProfile() {
           {/* PERSONALLY IDENTIFIABLE INFORMATION */} 
           <section>
             <SectionHeader title="Personally Identifiable Information" />
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col">
               <FormField
                 label="Social Security Number(SSN)"
                 name="ssn"
