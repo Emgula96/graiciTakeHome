@@ -77,7 +77,6 @@ export default function UserProfile() {
                 <FormField
                   label="Registered Email"
                   name="email"
-                  type="email"
                   value={formData.email}
                   isEditing={isEditing}
                   onChange={handleChange}
@@ -92,7 +91,6 @@ export default function UserProfile() {
                 <FormField
                   label="Cell Phone Number"
                   name="phone"
-                  type="tel"
                   value={formData.phone}
                   isEditing={isEditing}
                   onChange={handleChange}
