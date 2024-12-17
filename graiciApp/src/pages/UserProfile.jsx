@@ -47,7 +47,7 @@ export default function UserProfile() {
       <div className="absolute top-8 left-8">
         <i className="fas fa-bars text-2xl"></i>
       </div>
-      <div className={`max-w-5xl mx-auto mt-7 ${isEditing ? 'bg-transparent border-2 border-dashed' : 'bg-[#FFF3EC]'} rounded-lg shadow-md p-6 border-[#B95319]`}>
+      <div className={`max-w-5xl mx-auto mt-16 ${isEditing ? 'bg-transparent border-2 border-dashed' : 'bg-[#FFF3EC]'} rounded-lg shadow-md p-6 border-[#B95319]`}>
         <div className="flex flex-col gap-2 pl-4">
           {/* ID and Icon */}
           <div className="flex justify-between items-center mb-3">
